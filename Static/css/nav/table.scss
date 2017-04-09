@@ -1,10 +1,7 @@
 @import "../base.css";
 @import "../mixin";
-<<<<<<< HEAD
 @import "../trip/fonts";
-=======
 @import "../wzj_personal_css/fonts";
->>>>>>> 15d182da0022d821cbc2b8d1fa8adcb639d530d3
 @import "../../fonts/font_pnt9i8feioyfogvi/iconfont.css";
 
 $Img: '../../../Static/images/';
@@ -32,8 +29,8 @@ $Img: '../../../Static/images/';
     text-align: center;
     line-height: 0.6rem;
     font-family: leftp, sans-serif;
-   font-size: 0.22rem;
-    position:absolute;
+    font-size: 0.22rem;
+    position: absolute;
   }
   .content .titleBox {
     @include cube(100%, 100%);
@@ -54,12 +51,11 @@ $Img: '../../../Static/images/';
       flex-wrap: wrap;
       .chinese {
         @include font(0.3rem, #fff, 400);
-        font-family: Wyue,sans-serif;
+        font-family: Wyue, sans-serif;
       }
       .english {
         margin-top: 2%;
         @include font(0.18rem, #fff, 400);
-        font-family: Wyue,sans-serif;
       }
     }
     .right-r {

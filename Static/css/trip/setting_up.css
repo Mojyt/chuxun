@@ -228,12 +228,14 @@ body {
           top: 0;
           right: 0;
           bottom: 0;
-          margin: auto; }
+          margin: auto;
+          width: 1.28rem; }
       .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-logo .parcel-main-scenic-logo-top {
         width: 0.93rem;
         height: 0.93rem;
         border-radius: 50%;
         background: url("../../../Static/images/yy-header-por-top-bg.png");
+        background-size: 100%;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -300,6 +302,34 @@ body {
           .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-subtitle span {
             color: #ff0000;
             font-family: Wyue,sans-serif; }
+        .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-line {
+          width: 3.61rem;
+          height: 0.01rem;
+          background: #bfbfbf; }
+          .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-line .parcel-main-scenic-adjust-item-text-point {
+            display: block;
+            width: 0.1rem;
+            height: 0.1rem;
+            border-radius: 50%;
+            background: #ff0000;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-size: 0;
+            left: -0.05rem; }
+            .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-line .parcel-main-scenic-adjust-item-text-point::after {
+              content: '';
+              display: block;
+              width: 0.1rem;
+              height: 0.1rem;
+              border-radius: 50%;
+              background: #ff0000;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+              left: 3.69rem; }
         .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text p {
           font-size: 0.24rem;
           color: #bcb9b9;

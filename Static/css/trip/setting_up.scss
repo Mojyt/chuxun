@@ -192,11 +192,13 @@ $Img: '../../../Static/images/';
         img {
           display: block;
           @include center;
+          width: 1.28rem;
         }
       }
       .parcel-main-scenic-logo-top{
         @include circle(0.93rem);
        background: url($Img + "yy-header-por-top-bg.png");
+        background-size: 100%;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -271,6 +273,27 @@ $Img: '../../../Static/images/';
           span{
             color: #ff0000;
             font-family: Wyue,sans-serif;
+          }
+        }
+
+        .parcel-main-scenic-adjust-item-text-line {
+          @include cube(3.61rem, 0.01rem);
+          background: #bfbfbf;
+          .parcel-main-scenic-adjust-item-text-point{
+            display: block;
+            @include circle(0.1rem);
+            background: #ff0000;
+            @include tb;
+            font-size: 0;
+            left: -0.05rem;
+            &::after {
+              content: '';
+              display: block;
+              @include circle(0.1rem);
+              background: #ff0000;
+              @include tb;
+              left: 3.69rem;
+            }
           }
         }
         p {

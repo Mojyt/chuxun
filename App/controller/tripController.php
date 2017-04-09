@@ -10,4 +10,9 @@ class tripController extends Framework
     {
         $this->display('trip/setting_up.html');
     }
+
+    public function adjust()
+    {
+        $this->display('trip/adjust.html');
+    }
 }
