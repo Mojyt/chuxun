@@ -13,6 +13,13 @@ img{
     border:0;
 }
 
+s,i{
+    font-style: normal;
+    text-decoration: none;
+}
+
 *{
     font-family: '文悦古体仿宋',sans-serif;
+    position: relative;
+    box-sizing: border-box;
 }
