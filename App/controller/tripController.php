@@ -8,6 +8,7 @@ class tripController extends Framework
 {
     public function index()
     {
+//        $this->redirect('trip/adjust');
         $this->display('trip/setting_up.html');
     }
 

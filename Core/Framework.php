@@ -15,7 +15,7 @@ class Framework
 
     public function redirect($url)
     {
-        header("Location:/" . $url);
+        header("Location:/index.php/" . $url);
     }
 
     public function cookie($key, $value, $time)
@@ -55,8 +55,8 @@ class Framework
 //        } else {
 //            $class_name = $tmp[0] . 'Controller';
 //        }
-        $class_name = $tmp[0] . 'Controller';
-        $method_name = isset($tmp[1]) ? $tmp[1] : 'index';
+        $class_name = $tmp[1] . 'Controller';
+        $method_name = isset($tmp[2]) ? $tmp[2] : 'index';
         $file = CONTROLLER . $class_name . '.php';
         $namespace_class_name = '\\App\\controller\\' . $class_name;
         if (file_exists($file)) {
