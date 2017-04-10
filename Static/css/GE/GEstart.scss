@@ -1,6 +1,6 @@
-@import "base.css";
-@import "bootstrap.min.css";
-@import "mixin";
+@import "../base.css";
+@import "../bootstrap.min.css";
+@import "../mixin";
 @import "GEfont";
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 body{
   @include cube(100%,100%);
-  background: url("../img/xiaokaishi.png")center/cover no-repeat;
+  background: url("../../img/xiaokaishi.png")center/cover no-repeat;
 }
 .headerTop{
   @include cube(100%,1.2rem);
@@ -43,7 +43,7 @@ $imgs:"../img/";
     a{
       display: inline-block;
       @include cube(100%,100%);
-      background: url("../img/more_03.png")center/cover no-repeat;
+      background: url("../../img/more_03.png")center/cover no-repeat;
     }
   }
   .titleBox{
@@ -115,15 +115,15 @@ $imgs:"../img/";
     }
     .plus{
       margin-top: 0.2rem;
-      background: url("../img/xiaoplus_03.png")center/cover no-repeat;
+      background: url("../../img/xiaoplus_03.png")center/cover no-repeat;
     }
     .reduce{
       margin-top: 0.2rem;
-      background: url("../img/xiaoreduce_03.png")center/cover no-repeat;
+      background: url("../../img/xiaoreduce_03.png")center/cover no-repeat;
     }
     .compass{
       //margin-top: 0.2rem;
-      background: url("../img/compass_03.png")center/cover no-repeat;
+      background: url("../../img/compass_03.png")center/cover no-repeat;
     }
 
   }
