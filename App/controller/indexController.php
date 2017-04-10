@@ -16,7 +16,6 @@ use Core\Framework;
 class indexController extends Framework
 {
     public function index(){
-
     }
 }
 >>>>>>> ff6798f4fd63382c7af80a2b4b71f52ba97af8cb
