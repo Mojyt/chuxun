@@ -257,7 +257,7 @@ body {
       margin-left: 2%; }
   .add-card-info .inner .add-user-info {
     width: 100%;
-    height: 60%;
+    height: 43.5%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -297,6 +297,28 @@ body {
       line-height: 0.97rem;
       background: #EBEBEB;
       outline: none; }
+  .add-card-info .inner .agree {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .add-card-info .inner .agree .confirm {
+      width: 0.38rem;
+      height: 0.38rem;
+      border-radius: 50%;
+      background: #f7454c;
+      font-size: 0.3rem;
+      color: #fff;
+      font-weight: 300;
+      text-align: center;
+      line-height: 0.38rem; }
+    .add-card-info .inner .agree .agree-http {
+      padding-left: 3%;
+      font-size: 0.28rem;
+      color: #666;
+      font-weight: 300;
+      font-family: guyue, sans-serif; }
 
 .footer {
   width: 100%;

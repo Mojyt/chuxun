@@ -197,7 +197,7 @@ body {
     }
   }
   .inner .add-user-info{
-    @include cube(100%,60%);
+    @include cube(100%,43.5%);
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
@@ -232,6 +232,24 @@ body {
       line-height: 0.97rem;
       background:#EBEBEB;
       outline: none;
+    }
+  }
+  .inner .agree{
+    @include cube(100%,12%);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    .confirm{
+      @include circle(0.38rem);
+      background:#f7454c;
+      @include font(0.30rem,#fff,300);
+      text-align: center;
+      line-height: 0.38rem;
+    }
+    .agree-http{
+      padding-left:3%;
+      @include font(0.28rem,#666,300);
+      font-family: guyue, sans-serif;
     }
   }
 }
