@@ -19,7 +19,14 @@ s,i{
 }
 
 *{
+<<<<<<< HEAD
+    font-family: '文悦古体仿宋',sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+=======
     font-family: 'Wyue',sans-serif;
     position: relative;
     box-sizing: border-box;
 }
+>>>>>>> ff6798f4fd63382c7af80a2b4b71f52ba97af8cb
