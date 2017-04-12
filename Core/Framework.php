@@ -49,7 +49,7 @@ class Framework
 
     public static function start()
     {
-        $tmp = explode('/', substr(explode('?', $_SERVER["REQUEST_URI"])[0], 1));
+        $tmp = explode('/', substr(explode('?', $_SERVER["REQUEST_URI"])[0], 1));;
 //        if (empty($method_name[1])) {
 //            $class_name = 'indexController';
 //        } else {
